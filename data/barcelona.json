@@ -1,0 +1,46 @@
+{
+    "type" : "team",
+
+    "id" : 2,
+
+    "name" : "Barcelona",
+    "transfer_budget" : 100000000,
+
+    "formation" : 41203
+
+    "players" : [
+
+    {
+        "teamID" : 2,
+
+        "name" : "Lionel Messi",
+        "age" : 29,
+        "position" : "st,amc,wl",
+
+        "stats" : [
+
+            {"name" : "defense", "value" : 54},
+            {"name" : "midfield", "value" : 89},
+            {"name" : "attack", "value" : 96}
+
+        ]
+    },
+
+    {
+        "teamID" : 2,
+
+        "name" : "Claudio Bravo",
+        "age" : 31,
+        "position" : "gk",
+
+        "stats" : [
+
+            {"name" : "defense", "value" : 93},
+            {"name" : "midfield", "value" : 0},
+            {"name" : "attack", "value" : 0}
+
+        ]
+    }
+
+    ]
+}

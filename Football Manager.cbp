@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Football Manager" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Football Manager" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="../Football Manager" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Football Manager" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="../Football Manager" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="CompetitionsManager.cpp" />
+		<Unit filename="CompetitionsManager.h" />
+		<Unit filename="DataManager.cpp" />
+		<Unit filename="DataManager.h" />
+		<Unit filename="Date.cpp" />
+		<Unit filename="Date.h" />
+		<Unit filename="GameManager.cpp" />
+		<Unit filename="GameManager.h" />
+		<Unit filename="League.cpp" />
+		<Unit filename="League.h" />
+		<Unit filename="Match.cp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Match.cpp" />
+		<Unit filename="Match.h" />
+		<Unit filename="Player.cpp" />
+		<Unit filename="Player.h" />
+		<Unit filename="Team.cpp" />
+		<Unit filename="Team.h" />
+		<Unit filename="TimeManager.cpp" />
+		<Unit filename="TimeManager.h" />
+		<Unit filename="Utills.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,17 @@
+{
+    "type" : "manifest",
+
+    "comment" : "All the teams should be before the leagues.json file.",
+
+    "files" : [
+
+    { "path" : "data/manchester_united.json" },
+    { "path" : "data/chelsea.json" },
+    { "path" : "data/barcelona.json" },
+    { "path" : "data/real_madrid.json" },
+
+
+    { "path" : "data/leagues.json" }
+
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "type" : "team",
+
+    "id" : 1,
+
+    "name" : "Chelsea",
+    "transfer_budget" : 150000000,
+
+    "players" : [
+
+    {
+        "teamID" : 1,
+
+        "name" : "Eden Hazard",
+        "age" : 26,
+        "position" : "st,amc",
+
+        "stats" : [
+
+            {"name" : "defense", "value" : 50},
+            {"name" : "midfield", "value" : 75},
+            {"name" : "attack", "value" : 88}
+
+        ]
+    },
+
+    {
+        "teamID" : 1,
+
+        "name" : "Thibaut Courtois",
+        "age" : 26,
+        "position" : "gk",
+
+        "stats" : [
+
+            {"name" : "defense", "value" : 93},
+            {"name" : "midfield", "value" : 0},
+            {"name" : "attack", "value" : 0}
+
+        ]
+    }
+
+    ]
+}

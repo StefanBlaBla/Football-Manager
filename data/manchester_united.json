@@ -1,0 +1,44 @@
+{
+    "type" : "team",
+
+    "id" : 0,
+
+    "name" : "Manchester United",
+    "transfer_budget" : 45000000,
+
+    "players" : [
+
+    {
+        "teamID" : 0,
+
+        "name" : "Wayne Rooney",
+        "age" : 32,
+        "position" : "cf,amc",
+
+        "stats" : [
+
+            {"name" : "defense", "value" : 59},
+            {"name" : "midfield", "value" : 93},
+            {"name" : "attack", "value" : 93}
+
+        ]
+    },
+
+    {
+        "teamID" : 0,
+
+        "name" : "David De Gea",
+        "age" : 26,
+        "position" : "gk",
+
+        "stats" : [
+
+            {"name" : "defense", "value" : 89},
+            {"name" : "midfield", "value" : 0},
+            {"name" : "attack", "value" : 0}
+
+        ]
+    }
+
+    ]
+}

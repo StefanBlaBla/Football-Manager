@@ -1,0 +1,44 @@
+{
+    "type" : "team",
+
+    "id" : 3,
+
+    "name" : "Real Madrid",
+    "transfer_budget" : 150000000,
+
+    "players" : [
+
+    {
+        "teamID" : 3,
+
+        "name" : "Cristiano Ronaldo",
+        "age" : 30,
+        "position" : "st,rw",
+
+        "stats" : [
+
+            {"name" : "defense", "value" : 51},
+            {"name" : "midfield", "value" : 92},
+            {"name" : "attack", "value" : 97}
+
+        ]
+    },
+
+    {
+        "teamID" : 3,
+
+        "name" : "Keylor Navas",
+        "age" : 25,
+        "position" : "gk",
+
+        "stats" : [
+
+            {"name" : "defense", "value" : 87},
+            {"name" : "midfield", "value" : 0},
+            {"name" : "attack", "value" : 0}
+
+        ]
+    }
+
+    ]
+}
