@@ -6,8 +6,8 @@
     "files" : [
 
     { "path" : "data/manchester_united.json" },
-    { "path" : "data/chelsea.json" },
     { "path" : "data/barcelona.json" },
+    { "path" : "data/chelsea.json" },
     { "path" : "data/real_madrid.json" },
 
 

@@ -41,7 +41,7 @@ void Player::printInfo()
 
 int Player::stringToPosition(const std::string& str)
 {
-    std::vector<std::string> tokens = util::split(str, ',');
+    std::vector<std::string> tokens = util::splitToString(str, ',');
     int pos;
 
     for (int i = 0; i < tokens.size(); i++)

@@ -81,8 +81,12 @@ void DataManager::readFile(const char* path)
         int id = doc["id"].GetInt();
         std::string name = doc["name"].GetString();
         int transferBudget = doc["transfer_budget"].GetInt();
+        std::string fString = doc["formation"].GetString();
+        std::vector<short> formations = util::splitToShort(fString, '-');
+        short formation = (formations[0] << 12) | (formations[0] << 9) | (formations[0] << 6) | (formations[0] << 3) | formations[0];
 
-        Team nTeam(id, name, transferBudget);
+
+        Team nTeam(id, name, transferBudget, formation);
 
         gm->registerTeam(nTeam);
 

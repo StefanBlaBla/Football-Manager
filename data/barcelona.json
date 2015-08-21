@@ -6,7 +6,7 @@
     "name" : "Barcelona",
     "transfer_budget" : 100000000,
 
-    "formation" : 41203
+    "formation" : "3-2-2-1-2",
 
     "players" : [
 

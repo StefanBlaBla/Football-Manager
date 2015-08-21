@@ -7,11 +7,12 @@ Team::Team()
 }
 
 
-Team::Team(int id, std::string& name, int transferBudget)
+Team::Team(int id, std::string& name, int transferBudget, short formation)
 {
     this->id = id;
     this->name = name;
     this->transferBudget = transferBudget;
+    this->formation = formation;
 }
 
 
@@ -86,28 +87,29 @@ void Team::printInfo()
 
 int Team::getDefNum()
 {
+    return formation >> 12;
 }
 
 
 int Team::getDefMidNum()
 {
-
+    return (formation >> 9) & 7;
 }
 
 
 int Team::getMidNum()
 {
-
+    return (formation >> 6) & 7;
 }
 
 
 int Team::getAttMidNum()
 {
-
+    return (formation >> 3) & 7;
 }
 
 
 int Team::getAttNum()
 {
-
+    return formation & 7;
 }

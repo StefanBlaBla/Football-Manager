@@ -18,7 +18,7 @@ Match::~Match()
 
 void Match::simulate()
 {
-    std::cout <<"match simulate!";
+
 }
 
 

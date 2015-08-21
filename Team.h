@@ -11,7 +11,7 @@ class Team
 public:
 
     Team();
-    Team(int id, std::string& name, int transferBudget);
+    Team(int id, std::string& name, int transferBudget, short formation);
     ~Team();
 
     int getId() const;

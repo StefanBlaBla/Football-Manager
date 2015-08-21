@@ -120,3 +120,119 @@
 	<string>
 	<sstream>
 
+1438983053 source:d:\codeblocks\projects\football-manager\competitionsmanager.cpp
+	"CompetitionsManager.h"
+
+1438983032 d:\codeblocks\projects\football-manager\competitionsmanager.h
+	<vector>
+	"League.h"
+
+1438983060 d:\codeblocks\projects\football-manager\league.h
+	<vector>
+	<iostream>
+	"Match.h"
+
+1438980093 d:\codeblocks\projects\football-manager\match.h
+	"Team.h"
+
+1440188093 d:\codeblocks\projects\football-manager\team.h
+	<vector>
+	<iostream>
+	"Player.h"
+
+1440104776 d:\codeblocks\projects\football-manager\player.h
+	<iostream>
+	<map>
+	<vector>
+	"Date.h"
+	"Utills.h"
+
+1438980291 d:\codeblocks\projects\football-manager\date.h
+	<sstream>
+	<string>
+
+1440187979 d:\codeblocks\projects\football-manager\utills.h
+	<iostream>
+	<vector>
+	<string>
+	<cstdlib>
+	<sstream>
+
+1440188081 source:d:\codeblocks\projects\football-manager\datamanager.cpp
+	"DataManager.h"
+	"GameManager.h"
+	<map>
+
+1440101289 d:\codeblocks\projects\football-manager\datamanager.h
+	"rapidjson/document.h"
+	"rapidjson/filestream.h"
+	<stdio.h>
+	<vector>
+	<iostream>
+
+1353101044 d:\codeblocks\projects\football-manager\rapidjson\document.h
+	"reader.h"
+	"internal/strfunc.h"
+	<new>
+
+1352823350 d:\codeblocks\projects\football-manager\rapidjson\reader.h
+	"rapidjson.h"
+	"internal/pow10.h"
+	"internal/stack.h"
+	<csetjmp>
+	<nmmintrin.h>
+	<emmintrin.h>
+
+1353093346 d:\codeblocks\projects\football-manager\rapidjson\rapidjson.h
+	<cstdlib>
+	<cstring>
+	<inttypes.h>
+	<cassert>
+
+1330430048 d:\codeblocks\projects\football-manager\rapidjson\internal\pow10.h
+
+1330434888 d:\codeblocks\projects\football-manager\rapidjson\internal\stack.h
+
+1330430048 d:\codeblocks\projects\football-manager\rapidjson\internal\strfunc.h
+
+1330430048 d:\codeblocks\projects\football-manager\rapidjson\filestream.h
+	<cstdio>
+
+1438606923 d:\codeblocks\projects\football-manager\gamemanager.h
+	<iostream>
+	<cstdlib>
+	"TimeManager.h"
+	"DataManager.h"
+	"CompetitionsManager.h"
+
+1438982960 d:\codeblocks\projects\football-manager\timemanager.h
+	"Date.h"
+
+1438981565 source:d:\codeblocks\projects\football-manager\date.cpp
+	"Date.h"
+
+1438983147 source:d:\codeblocks\projects\football-manager\gamemanager.cpp
+	"GameManager.h"
+
+1438983271 source:d:\codeblocks\projects\football-manager\league.cpp
+	"League.h"
+
+1440188334 source:d:\codeblocks\projects\football-manager\match.cpp
+	"Match.h"
+
+1440186783 source:d:\codeblocks\projects\football-manager\player.cpp
+	"Player.h"
+
+1438982989 source:d:\codeblocks\projects\football-manager\timemanager.cpp
+	"TimeManager.h"
+	<sstream>
+
+1440188301 source:d:\codeblocks\projects\football-manager\team.cpp
+	"Team.h"
+
+1440188230 source:d:\codeblocks\projects\football-manager\main.cpp
+	<iostream>
+	"GameManager.h"
+
+1440184045 source:d:\codeblocks\projects\football-manager\match.cp.c
+

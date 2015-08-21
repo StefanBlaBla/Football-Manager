@@ -6,6 +6,8 @@
     "name" : "Chelsea",
     "transfer_budget" : 150000000,
 
+    "formation" : "3-2-2-1-2",
+
     "players" : [
 
     {
