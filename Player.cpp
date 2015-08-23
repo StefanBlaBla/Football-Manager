@@ -92,3 +92,9 @@ int Player::stringToPosition(const std::string& str)
 
     return pos;
 }
+
+
+int Player::getStat(const std::string& name)
+{
+    return stats[name];
+}

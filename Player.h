@@ -49,6 +49,8 @@ public:
 
     static int stringToPosition(const std::string& str);
 
+    int getStat(const std::string& name);
+
 private:
 
     std::string name;

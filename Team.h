@@ -23,6 +23,12 @@ public:
 
     Player* getPlayer(Position pos);
 
+    std::vector<Player*>& getDefenders();
+    std::vector<Player*>& getMidDefenders();
+    std::vector<Player*>& getMiddle();
+    std::vector<Player*>& getMidAttackers();
+    std::vector<Player*>& getAttackers();
+
     void addPlayer(Player *player);
 
     void onDayAdvanced(Date date);
